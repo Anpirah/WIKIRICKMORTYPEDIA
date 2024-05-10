@@ -1,0 +1,91 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #000000, #0d0221, #230226, #36022f, #49093d);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    padding: 20px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+input[type="text"] {
+    margin: 12px;
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: #ffffff; 
+    width: 100%; 
+    max-width: 300px; 
+}
+
+
+button {
+   
+    padding: 12px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #ffffff; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin: 12px;
+   
+}
+
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.char-info {
+    text-align: center;
+}
+
+.char-info h2 {
+    margin-bottom: 20px;
+}
+
+.char-info img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.char-info p {
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    .charInfo {
+        width: 100%;
+    }
+}
